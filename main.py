@@ -25,17 +25,16 @@ def get_puma_price_list(url):
 
     wait = WebDriverWait(driver, 15)
 
-
-    # time.sleep(2)
-    # driver.execute_script("window.scrollTo(0, 150)")
+    time.sleep(2)
+    driver.execute_script("window.scrollTo(0, 150)")
     # scroll(wait)
     #
     show_all_button = driver.find_element_by_xpath("//button[contains(text(), 'Voir Tout')]")
     show_all_button.click()
-    elem = driver.find_element_by_name("body")
-    elem.send_keys(Keys.END)
+    # elem = driver.find_element_by_name("body")
+    # elem.send_keys(Keys.END)
     # nbr_of_scroll = 9
-    scroll(wait,3)
+    scroll(wait, 3)
 
     shoes = driver.find_elements_by_xpath("//div[@data-grid-tile-wrapper]")
     # shoes_name = driver.find_elements_by_class_name("product-tile-title")
@@ -74,36 +73,39 @@ def check_exists_by_classname(element, classname):
     return True
 
 
-def get_commentary_and_date(list):
-    name_text_list = []
-    date_text_list = []
-    comment_text_list = []
-    like_nbr_list = []
-    # print(name, "\n", date, "\n", commentary, "\n", like_nbr, "\n")
+# def get_commentary_and_date(list):
+#     name_text_list = []
+#     date_text_list = []
+#     comment_text_list = []
+#     like_nbr_list = []
+#     # print(name, "\n", date, "\n", commentary, "\n", like_nbr, "\n")
+#
+#     for comment in list:
+#         text_list = comment.split('\n')
+#         if len(text_list) < 4: continue
+#         text_list = text_list[:-1]
+#         name = text_list[0]
+#         date = text_list[1]
+#         comment = "|".join(text_list[2:-1])
+#         like_nbr = text_list[-1]
+#         name_text_list.append(name)
+#         date_text_list.append(date)
+#         comment_text_list.append(comment)
+#         like_nbr_list.append(like_nbr)
+#     dict = {'name': name_text_list, 'date': date_text_list, 'comment': comment_text_list, 'like': like_nbr_list}
+#
+#     return dict
 
-    for comment in list:
-        text_list = comment.split('\n')
-        if len(text_list) < 4: continue
-        text_list = text_list[:-1]
-        name = text_list[0]
-        date = text_list[1]
-        comment = "|".join(text_list[2:-1])
-        like_nbr = text_list[-1]
-        name_text_list.append(name)
-        date_text_list.append(date)
-        comment_text_list.append(comment)
-        like_nbr_list.append(like_nbr)
-    dict = {'name': name_text_list, 'date': date_text_list, 'comment': comment_text_list, 'like': like_nbr_list}
 
-    return dict
+def data_list_to_csv(url, gender):
+    price_list = get_puma_price_list(url)
+    df = pd.DataFrame(data=price_list)
+    print(df)
+    # df.to_csv("puma-men.csv") if gender == "men" else df.to_csv("puma-women.csv")
+    print("men") if gender == "men" else print("women")
 
 
 if __name__ == "__main__":
-    url = "https://eu.puma.com/fr/fr/homme/chaussures"
-    # price_women_list = get_puma_price_list("https://eu.puma.com/fr/fr/femme/chaussures")
-    price_men_list = get_puma_price_list("https://eu.puma.com/fr/fr/homme/chaussures")
-    # print(price_men_list)
+    # data_list_to_csv("https://eu.puma.com/fr/fr/homme/chaussures", "men")
+    data_list_to_csv("https://eu.puma.com/fr/fr/femme/chaussures", "women")
 
-    df = pd.DataFrame(data=price_men_list)
-    print(df)
-    df.to_csv("puma-men.csv")
