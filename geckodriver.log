@@ -2458,3 +2458,38 @@ console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError 
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1620576055074	geckodriver	INFO	Listening on 127.0.0.1:58407
+1620576056086	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileSpZHfU"
+2021-05-09 18:00:57.803 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSButton: 0x143d7a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:00:57.804 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSButton: 0x143d75800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:00:57.804 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSButton: 0x143d75c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:00:57.805 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSButton: 0x143d74800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:00:57.805 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSButton: 0x143d79c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:00:57.806 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143d78400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:00:57.806 firefox-bin[3215:170767] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143f6bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620576059224	Marionette	INFO	Listening on port 58414
+1620576059300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/consent/91a31f07-9f97-4cd6-aa0b-331c14f5bd5a.js, line 163: TypeError: f is not a function
+JavaScript error: https://eu.puma.com/fr/fr/homme/chaussures line 6136 > injectedScript, line 2: TypeError: qs is undefined
+JavaScript error: https://eu.puma.com/fr/fr/homme/chaussures line 6136 > injectedScript, line 2: TypeError: qs is undefined
+1620576137515	Marionette	INFO	Stopped listening on port 58414
+1620576138803	Marionette	INFO	Stopped listening on port 57880
+1620576139098	Marionette	INFO	Stopped listening on port 57779
+1620576139820	Marionette	INFO	Stopped listening on port 57673
+1620576162978	geckodriver	INFO	Listening on 127.0.0.1:58566
+1620576162985	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofile2Av08j"
+2021-05-09 18:02:44.561 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSButton: 0x1455a3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:02:44.561 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSButton: 0x1455a5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:02:44.561 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSButton: 0x1455a0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:02:44.562 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSButton: 0x1455a6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:02:44.562 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSButton: 0x1455a2400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:02:44.562 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145c45800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-09 18:02:44.563 firefox-bin[3243:172700] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145c4b000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1620576165719	Marionette	INFO	Listening on port 58571
+1620576165801	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eu.puma.com/fr/fr/homme/chaussures line 6136 > injectedScript, line 2: TypeError: qs is undefined
+JavaScript error: https://eu.puma.com/fr/fr/homme/chaussures line 6136 > injectedScript, line 2: TypeError: qs is undefined
