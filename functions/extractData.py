@@ -69,10 +69,11 @@ def get_nike_price_list(url):
     time.sleep(2)
     driver.execute_script("window.scrollTo(0, 150)")
 
-    time.sleep(1)
+    time.sleep(3)
     scroll(wait, 3, 4)
 
-    shoes = driver.find_elements_by_xpath("//div[@product-card__info]")
+    # shoes = driver.find_elements_by_xpath("//class[@product-card]")
+    shoes = driver.find_elements_by_class_name("product-card")
     print(shoes)
     # "product_msg_info"
     # name = "product-card__title"
