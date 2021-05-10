@@ -8,16 +8,16 @@ def data_list_to_csv(url, brand, gender):
 
     print("\n=======================================\n")
 
-    df = pd.DataFrame(data=price_list)
-    print(df)
+    # df = pd.DataFrame(data=price_list)
+    # print(df)
 
     # print("puma men ") if gender == "men" and brand == "puma" else print("puma women") if gender == "women" and brand == "puma" else print("=== NIKE ===")
     # print("nike men ") if gender == "men" and brand == "nike" else print("nike women") if gender == "women" and brand == "nike" else print("=== PUMA ===")
 
-    df.to_csv("./csv_files/puma-men.csv") if gender == "men" and brand == "puma" else df.to_csv(
-        "./csv_files/puma-women.csv") if gender == "women" and brand == "puma" else df.to_csv(
-        "./csv_files/nike-men.csv") if gender == "men" and brand == "nike" else df.to_csv(
-        "./csv_files/nike-women.csv") if gender == "women" and brand == "nike" else print("=== ERROR ===")
+    # df.to_csv("./csv_files/puma-men.csv") if gender == "men" and brand == "puma" else df.to_csv(
+    #     "./csv_files/puma-women.csv") if gender == "women" and brand == "puma" else df.to_csv(
+    #     "./csv_files/nike-men.csv") if gender == "men" and brand == "nike" else df.to_csv(
+    #     "./csv_files/nike-women.csv") if gender == "women" and brand == "nike" else print("=== ERROR ===")
 
     print("puma men") if gender == "men" and brand == "puma" else print(
         "puma women") if gender == "women" and brand == "puma" else print(
