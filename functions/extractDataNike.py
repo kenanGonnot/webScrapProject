@@ -1,18 +1,21 @@
-from bs4 import BeautifulSoup
 import unicodedata
+
+from bs4 import BeautifulSoup
+
 from functions.utils import accept_nike_cookies, get_page
 
 
 def get_nike_shoes_list(url):
-    source = get_page(url, accept_nike_cookies)
+    driver = get_page(url, accept_nike_cookies)
 
-    soup = BeautifulSoup(source.page_source, 'html.parser')
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     shoes_list = soup.find_all('div', {"class": "product-card"})
 
-    print(" =============== Extract Data =============== ")
-
     extract_price_list_converted = extract_nikes_data(shoes_list)
+
+    driver.close()
+
     return extract_price_list_converted
 
 

@@ -9,11 +9,13 @@ def get_puma_shoes_list(url):
 
     extract_price_list_converted = extract_pumas_data(shoes_list)
 
+    driver.close()
+
     return extract_price_list_converted
 
 
 def accept_cookie_and_show_all(driver, wait):
-    accept_pumas_cookies(driver)
+    accept_pumas_cookies(driver, wait)
     driver.execute_script("window.scrollTo(0, 150)")
     show_all_button = driver.find_element_by_xpath("//button[contains(text(), 'Voir Tout')]")
     show_all_button.click()

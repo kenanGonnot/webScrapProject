@@ -12,6 +12,7 @@ def scroll(wait, nbr_of_scroll=1, time_to_sleep=5):
         print("scroll")
         wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body"))).send_keys(Keys.END)
         wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body"))).send_keys(Keys.PAGE_UP)
+        wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body"))).send_keys(Keys.PAGE_UP)
         time.sleep(time_to_sleep)
 
 
@@ -22,12 +23,13 @@ def get_page(url, acceptcookie):
 
     acceptcookie(driver, wait)
 
-    scroll(wait, nbr_of_scroll=7, time_to_sleep=4)
+    scroll(wait, nbr_of_scroll=10, time_to_sleep=4)
 
     return driver
 
 
-def accept_pumas_cookies(driver):
+def accept_pumas_cookies(driver, wait):
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "puma-cookie-banner")))
     driver.execute_script(
         "document.getElementsByTagName('puma-cookie-banner')[0].shadowRoot.querySelector('.btn').click()")
 
@@ -45,4 +47,3 @@ def check_exists_by_classname(element, classname):
     except NoSuchElementException:
         return False
     return True
-
