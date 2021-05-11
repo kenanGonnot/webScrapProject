@@ -3282,3 +3282,545 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
 1620654702855	Marionette	INFO	Stopped listening on port 57983
+1620743961728	geckodriver	INFO	Listening on 127.0.0.1:62159
+1620743962751	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileYCeOmC"
+2021-05-11 16:39:24.675 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSButton: 0x143a7a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:39:24.676 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSButton: 0x143a76c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:39:24.676 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSButton: 0x143a77c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:39:24.676 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSButton: 0x143a78800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:39:24.676 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSButton: 0x143a7d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:39:24.677 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143a7bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:39:24.677 firefox-bin[14809:1066722] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x144006800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1620743965863	Marionette	INFO	Listening on port 62166
+1620743965980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620743979647	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:331:29
+
+1620744003235	Marionette	INFO	Stopped listening on port 62166
+1620744007912	geckodriver	INFO	Listening on 127.0.0.1:62443
+1620744007917	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofilefhlH6E"
+2021-05-11 16:40:10.508 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143784c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:40:10.508 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143785c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:40:10.509 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143786800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:40:10.509 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143789000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:40:10.509 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143783c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:40:10.510 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143785000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:40:10.510 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143c0e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620744011752	Marionette	INFO	Listening on port 62448
+1620744011864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+2021-05-11 16:46:27.686 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x14378c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:46:27.687 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143c08000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:46:27.687 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x143c15c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:46:27.687 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x149cdc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:46:27.688 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSButton: 0x149cd9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:46:27.688 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x149cdcc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:46:27.688 firefox-bin[14832:1067968] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14a67e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620744408513	Marionette	INFO	Stopped listening on port 62448
+1620744521800	geckodriver	INFO	Listening on 127.0.0.1:62791
+1620744522784	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofilepARHcT"
+2021-05-11 16:48:44.565 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSButton: 0x1440ae400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:48:44.565 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSButton: 0x1440acc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:48:44.566 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSButton: 0x1440ad400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:48:44.566 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSButton: 0x1440aec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:48:44.566 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSButton: 0x1440af000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:48:44.567 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1440a8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:48:44.567 firefox-bin[14969:1073216] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14452ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620744525674	Marionette	INFO	Listening on port 62798
+1620744525705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620744761801	Marionette	INFO	Stopped listening on port 62798
+1620744770907	geckodriver	INFO	Listening on 127.0.0.1:62979
+1620744770916	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileuDTtMY"
+2021-05-11 16:52:52.491 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSButton: 0x141d1cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:52:52.492 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSButton: 0x141d1f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:52:52.492 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSButton: 0x141d1e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:52:52.493 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSButton: 0x141d1f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:52:52.493 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSButton: 0x141d19800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:52:52.493 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x141d1a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 16:52:52.493 firefox-bin[15027:1076212] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x141f88400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620744773715	Marionette	INFO	Listening on port 62984
+1620744773730	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1188"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1188:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:631:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1188, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1287:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1512:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1235:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:634:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:740:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1287, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1287))
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620745304162	Marionette	INFO	Stopped listening on port 62984
+1620745711924	geckodriver	INFO	Listening on 127.0.0.1:63521
+1620745712945	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofile6rKZLh"
+1620745715856	Marionette	INFO	Marionette enabled
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620745717372	Marionette	INFO	Listening on port 63528
+1620745740608	Marionette	INFO	Stopped listening on port 63528
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620745776039	geckodriver	INFO	Listening on 127.0.0.1:63569
+1620745776048	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileYA8XBe"
+1620745798198	Marionette	INFO	Marionette enabled
+2021-05-11 17:09:59.442 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSButton: 0x145720000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:09:59.443 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSButton: 0x14571d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:09:59.443 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSButton: 0x145721800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:09:59.444 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSButton: 0x145722000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:09:59.444 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSButton: 0x14571d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:09:59.444 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14571dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:09:59.445 firefox-bin[15196:1085155] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1459b7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620745800596	Marionette	INFO	Listening on port 63574
+1620745800686	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620745821634	Marionette	INFO	Stopped listening on port 63574
+1620745836705	geckodriver	INFO	Listening on 127.0.0.1:63927
+1620745836713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofiletlsdTU"
+1620745837147	Marionette	INFO	Marionette enabled
+2021-05-11 17:10:38.229 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSButton: 0x1439af000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:10:38.230 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSButton: 0x1439ad400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:10:38.230 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSButton: 0x1439a7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:10:38.231 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSButton: 0x1439a7800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:10:38.231 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSButton: 0x1439ad800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:10:38.231 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1439a8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:10:38.231 firefox-bin[15231:1086403] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143cb8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620745839276	Marionette	INFO	Listening on port 63932
+1620745839320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620745894618	geckodriver	INFO	Listening on 127.0.0.1:64033
+1620745894626	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileugjle2"
+1620745895063	Marionette	INFO	Marionette enabled
+2021-05-11 17:11:36.151 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSButton: 0x143248400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:11:36.151 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSButton: 0x14324c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:11:36.152 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSButton: 0x14324ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:11:36.152 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSButton: 0x143248000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:11:36.152 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSButton: 0x14324a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:11:36.153 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14324a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:11:36.153 firefox-bin[15247:1087326] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143980400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620745897313	Marionette	INFO	Listening on port 64038
+1620745897338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620745918729	geckodriver	INFO	Listening on 127.0.0.1:64195
+1620745918735	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileK42KDR"
+1620745919177	Marionette	INFO	Marionette enabled
+2021-05-11 17:12:00.379 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSButton: 0x144540400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:00.379 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSButton: 0x144545800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:00.380 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSButton: 0x144543400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:00.380 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSButton: 0x144545000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:00.380 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSButton: 0x14453f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:00.381 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x144545c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:00.381 firefox-bin[15262:1088367] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14485c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620745921449	Marionette	INFO	Listening on port 64200
+1620745921542	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620745949524	geckodriver	INFO	Listening on 127.0.0.1:64348
+1620745950545	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileYCGtSN"
+1620745951017	Marionette	INFO	Marionette enabled
+2021-05-11 17:12:32.233 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSButton: 0x14479e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:32.234 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSButton: 0x14479bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:32.234 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSButton: 0x14479c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:32.234 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSButton: 0x144798800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:32.235 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSButton: 0x14479d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:32.235 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x144799000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:12:32.235 firefox-bin[15282:1089275] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x144859c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620745953445	Marionette	INFO	Listening on port 64355
+1620745953471	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746062268	Marionette	INFO	Stopped listening on port 64200
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6C0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620746062887	Marionette	INFO	Stopped listening on port 64038
+1620746063558	Marionette	INFO	Stopped listening on port 63932
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1620746069581	Marionette	INFO	Stopped listening on port 64355
+1620746160199	geckodriver	INFO	Listening on 127.0.0.1:64550
+1620746161220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileG6bVgB"
+1620746161714	Marionette	INFO	Marionette enabled
+2021-05-11 17:16:02.862 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSButton: 0x14400d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:02.863 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSButton: 0x14400b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:02.863 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSButton: 0x144010800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:02.863 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSButton: 0x144011c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:02.864 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSButton: 0x144010000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:02.864 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14400cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:02.864 firefox-bin[15353:1092724] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14435d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746163919	Marionette	INFO	Listening on port 64557
+1620746163936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://ad.doubleclick.net/ddm/adj/N8893.197812NSO.CODESRV/B20224519.203668329;sz=1x2;ord=739973371?, line 148: SyntaxError: invalid escape sequence
+1620746194418	Marionette	INFO	Stopped listening on port 64557
+1620746217791	geckodriver	INFO	Listening on 127.0.0.1:64711
+1620746217799	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofiledjDCMH"
+1620746218227	Marionette	INFO	Marionette enabled
+2021-05-11 17:16:59.343 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSButton: 0x135ab3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:59.343 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSButton: 0x141b2a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:59.344 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSButton: 0x141b2ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:59.344 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSButton: 0x141b2bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:59.344 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSButton: 0x141b2b000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:59.345 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x141b2b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:16:59.345 firefox-bin[15371:1093734] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x141e50000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746220392	Marionette	INFO	Listening on port 64716
+1620746220499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746246586	Marionette	INFO	Stopped listening on port 64716
+1620746262299	geckodriver	INFO	Listening on 127.0.0.1:64865
+1620746262307	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofilehSKmmW"
+1620746262744	Marionette	INFO	Marionette enabled
+2021-05-11 17:17:43.839 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSButton: 0x137f38400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:17:43.839 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSButton: 0x143f31400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:17:43.840 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSButton: 0x143f2b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:17:43.840 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSButton: 0x143f2dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:17:43.841 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSButton: 0x143f2ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:17:43.841 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143f2bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:17:43.841 firefox-bin[15391:1094728] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x144258c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746264889	Marionette	INFO	Listening on port 64870
+1620746264910	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746279190	Marionette	INFO	Stopped listening on port 64870
+1620746291436	geckodriver	INFO	Listening on 127.0.0.1:65017
+1620746291443	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofilePO28of"
+1620746291862	Marionette	INFO	Marionette enabled
+2021-05-11 17:18:12.950 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSButton: 0x145a2cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:18:12.951 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSButton: 0x145a2d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:18:12.951 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSButton: 0x145a2c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:18:12.951 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSButton: 0x145a2d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:18:12.952 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSButton: 0x145a2d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:18:12.952 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145a2e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:18:12.952 firefox-bin[15412:1095630] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145d55c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746294028	Marionette	INFO	Listening on port 65022
+1620746294045	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746310541	Marionette	INFO	Stopped listening on port 65022
+1620746336402	geckodriver	INFO	Listening on 127.0.0.1:65170
+1620746336421	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofilexcEasm"
+1620746336916	Marionette	INFO	Marionette enabled
+2021-05-11 17:19:04.057 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSButton: 0x139a0f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:19:04.058 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSButton: 0x145b33000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:19:04.058 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSButton: 0x145b35c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:19:04.058 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSButton: 0x145b30400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:19:04.059 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSButton: 0x145b37000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:19:04.059 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145b30800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:19:04.059 firefox-bin[15431:1096772] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145e4ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746345145	Marionette	INFO	Listening on port 65175
+1620746345170	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746427444	geckodriver	INFO	Listening on 127.0.0.1:65405
+1620746427452	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileNE3FOE"
+1620746427895	Marionette	INFO	Marionette enabled
+2021-05-11 17:20:29.026 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSButton: 0x139c98000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:20:29.027 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSButton: 0x145d31400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:20:29.027 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSButton: 0x145d2ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:20:29.027 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSButton: 0x145d31c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:20:29.028 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSButton: 0x145d2ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:20:29.028 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145d2f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:20:29.028 firefox-bin[15452:1098256] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14607a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746430137	Marionette	INFO	Listening on port 65410
+1620746430171	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746501516	geckodriver	INFO	Listening on 127.0.0.1:49187
+1620746501525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileK2iQ40"
+1620746501942	Marionette	INFO	Marionette enabled
+2021-05-11 17:21:43.116 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSButton: 0x1373a0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:21:43.116 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSButton: 0x143436000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:21:43.117 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSButton: 0x143435800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:21:43.117 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSButton: 0x143433400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:21:43.117 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSButton: 0x143438800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:21:43.118 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143438000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:21:43.118 firefox-bin[15470:1099534] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143755000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746504206	Marionette	INFO	Listening on port 49192
+1620746504233	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746532213	geckodriver	INFO	Listening on 127.0.0.1:49344
+1620746532221	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileF4KcZH"
+1620746532666	Marionette	INFO	Marionette enabled
+2021-05-11 17:22:13.829 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSButton: 0x141f38c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:22:13.830 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSButton: 0x141f36000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:22:13.830 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSButton: 0x141f39000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:22:13.830 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSButton: 0x141f34c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:22:13.831 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSButton: 0x141f39c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:22:13.831 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x141f35800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:22:13.831 firefox-bin[15489:1100454] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14227d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746534941	Marionette	INFO	Listening on port 49349
+1620746535034	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620746769806	geckodriver	INFO	Listening on 127.0.0.1:49522
+1620746769814	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileoRuNwk"
+1620746770282	Marionette	INFO	Marionette enabled
+2021-05-11 17:26:11.519 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSButton: 0x143f6f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:26:11.520 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSButton: 0x143f6d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:26:11.520 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSButton: 0x143f69000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:26:11.521 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSButton: 0x143f69400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:26:11.521 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSButton: 0x143f6a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:26:11.521 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143f6ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:26:11.522 firefox-bin[15543:1102573] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1441b8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620746772577	Marionette	INFO	Listening on port 49527
+1620746772649	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620747232792	geckodriver	INFO	Listening on 127.0.0.1:49766
+1620747233810	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileaeNpxT"
+1620747234461	Marionette	INFO	Marionette enabled
+2021-05-11 17:33:55.919 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSButton: 0x145825000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:33:55.920 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSButton: 0x145823800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:33:55.920 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSButton: 0x145826400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:33:55.921 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSButton: 0x145821800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:33:55.921 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSButton: 0x145823000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:33:55.921 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145822800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:33:55.922 firefox-bin[15651:1106435] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x145b78000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620747237044	Marionette	INFO	Listening on port 49773
+1620747237151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620747644716	geckodriver	INFO	Listening on 127.0.0.1:49962
+1620747645739	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wf/wnvt2sps3zbgxgxfcbpbw7xm0000gn/T/rust_mozprofileumX7kd"
+1620747646275	Marionette	INFO	Marionette enabled
+2021-05-11 17:40:47.836 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSButton: 0x143ee5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:40:47.836 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSButton: 0x143ee7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:40:47.836 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSButton: 0x143ee9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:40:47.837 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSButton: 0x143ee4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:40:47.837 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSButton: 0x143ee7800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:40:47.837 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x143ee8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-11 17:40:47.838 firefox-bin[15708:1109401] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x144254c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620747648971	Marionette	INFO	Listening on port 49969
+1620747648990	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
+JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data

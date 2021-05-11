@@ -1,28 +1,22 @@
-import requests
 from bs4 import BeautifulSoup
 import unicodedata
+from functions.utils import accept_nike_cookies, get_page
 
 
 def get_nike_shoes_list(url):
-    reponse = requests.get(url)
-    #selenium scroll
+    source = get_page(url, accept_nike_cookies)
 
-    soup = BeautifulSoup(reponse.text, 'html.parser')
+    soup = BeautifulSoup(source.page_source, 'html.parser')
 
-    shoes = soup.find_all('div', {"class": "product-card"})
-
+    shoes_list = soup.find_all('div', {"class": "product-card"})
 
     print(" =============== Extract Data =============== ")
-    # name = "product-card__title"
-    # price = "product-price"
 
-    extract_price_list_converted = extract_nikes_data(shoes)
+    extract_price_list_converted = extract_nikes_data(shoes_list)
     return extract_price_list_converted
 
 
-def extract_nikes_data(shoes):
-    shoes_list_filtered = shoes
-
+def extract_nikes_data(shoes_list):
     extract_price = lambda x: x.get_text()
     convert_to_float = lambda x: float(x.replace(",", ".").replace("€", ""))
     normalize_text = lambda x: unicodedata.normalize("NFKD", x.get_text())
@@ -31,19 +25,12 @@ def extract_nikes_data(shoes):
                                  "price": convert_to_float(
                                      extract_price(x.find('div', {"class": "product-price"})))}
 
-    extract_price_list_converted = list(map(convert_to_dict, shoes_list_filtered))
+    extract_price_list_converted = list(map(convert_to_dict, shoes_list))
 
     return extract_price_list_converted
 
 
-# def check_exists_by_classname(element, classname):
-#     try:
-#         element.find('div', {"class": classname})
-#     except NoSuchElementException:
-#         return False
-#     return True
-
-
 if __name__ == '__main__':
     shoes = get_nike_shoes_list("https://www.nike.com/fr/w/femmes-chaussures-5e1x6zy7ok")
+    print(shoes)
     print(len(shoes))
