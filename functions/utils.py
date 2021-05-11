@@ -11,7 +11,6 @@ def scroll(wait, nbr_of_scroll=1, time_to_sleep=5):
     for _ in range(nbr_of_scroll):
         print("scroll")
         wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body"))).send_keys(Keys.END)
-        # time.sleep(1)
         wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body"))).send_keys(Keys.PAGE_UP)
         time.sleep(time_to_sleep)
 
@@ -23,14 +22,6 @@ def get_page(url, acceptcookie):
 
     acceptcookie(driver, wait)
 
-    # Use Javascript for the first scroll (scroll method does not always work with slow connection)
-    # time.sleep(2)
-    # driver.execute_script("window.scrollTo(0, 150)")
-    # element = driver.find_element_by_class_name("loader-overlay")
-    # driver.execute_script("arguments[0].scrollIntoView(false);", element)
-    # wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body"))).send_keys(Keys.END)
-
-    # time.sleep(3)
     scroll(wait, nbr_of_scroll=7, time_to_sleep=4)
 
     return driver
@@ -54,3 +45,4 @@ def check_exists_by_classname(element, classname):
     except NoSuchElementException:
         return False
     return True
+
