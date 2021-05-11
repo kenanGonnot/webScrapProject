@@ -32,9 +32,7 @@ def plot_compare_brands_gender(first_csv, second_csv):
     second_price = second_df["price"]
     second_price = second_price.sort_values(ascending=True)
 
-    min_length = min(len(first_price), len(second_price))
-    first_price = first_price[:min_length]
-    second_price = second_price[:min_length]
+    first_price, second_price = resize_data(first_price, second_price)
 
     plt.plot(list(first_price), '-b', label=str(first_csv))
     plt.plot(list(second_price), '-r', label=str(second_csv))
