@@ -23,7 +23,7 @@ def get_page(url, acceptcookie):
 
     acceptcookie(driver, wait)
 
-    scroll(wait, nbr_of_scroll=10, time_to_sleep=4)
+    scroll(wait, nbr_of_scroll=20, time_to_sleep=4)
 
     return driver
 
