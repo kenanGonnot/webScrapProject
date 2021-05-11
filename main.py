@@ -1,7 +1,7 @@
 import pandas as pd
 from functions.extractDataNike import get_nike_shoes_list
 from functions.extractDataPuma import get_puma_shoes_list
-from functions.graph import plot_display_order, plot_compare_brands
+from functions.graph import plot_display_order, plot_compare_brands_gender
 
 
 def data_list_to_csv(url, brand, gender):
@@ -20,14 +20,14 @@ def data_list_to_csv(url, brand, gender):
 
 
 if __name__ == "__main__":
-    data_list_to_csv("https://eu.puma.com/fr/fr/homme/chaussures", "puma", "men")
+    # data_list_to_csv("https://eu.puma.com/fr/fr/homme/chaussures", "puma", "men")
     # data_list_to_csv("https://eu.puma.com/fr/fr/femme/chaussures", "puma", "women")
     # data_list_to_csv("https://www.nike.com/fr/w/hommes-chaussures-nik1zy7ok", "nike", "men")
-    data_list_to_csv("https://www.nike.com/fr/w/femmes-chaussures-5e1x6zy7ok", "nike", "women")
+    # data_list_to_csv("https://www.nike.com/fr/w/femmes-chaussures-5e1x6zy7ok", "nike", "women")
 
-    # plot_display_order("puma")
-    # plot_display_order("nike")
-    # plot_compare_brands("./csv_files/nike-men.csv", "./csv_files/puma-men.csv")
-    # plot_compare_brands("./csv_files/nike-women.csv", "./csv_files/puma-women.csv")
+    plot_display_order("puma")
+    plot_display_order("nike")
+    plot_compare_brands_gender("./csv_files/nike-men.csv", "./csv_files/puma-men.csv")
+    plot_compare_brands_gender("./csv_files/nike-women.csv", "./csv_files/puma-women.csv")
 
 
