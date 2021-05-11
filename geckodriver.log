@@ -3824,3 +3824,16 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1620747648990	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: unreachable code after return statement
 JavaScript error: https://s3.nikecdn.com/unite/app/881/scripts/app.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1620748153457	Marionette	INFO	Stopped listening on port 49969
+1620748154024	Marionette	INFO	Stopped listening on port 49773
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620748154621	Marionette	INFO	Stopped listening on port 49527
+1620748155227	Marionette	INFO	Stopped listening on port 49349
+1620748155844	Marionette	INFO	Stopped listening on port 49192
+1620748156450	Marionette	INFO	Stopped listening on port 65410
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620748157069	Marionette	INFO	Stopped listening on port 65175
