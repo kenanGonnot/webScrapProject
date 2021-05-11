@@ -2,13 +2,15 @@ from selenium import webdriver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from functions.utils import scroll, check_exists_by_classname, accept_pumas_cookies, accept_nike_cookies
+import requests
+from bs4 import BeautifulSoup
 
 
-def get_puma_price_list(url):
+def get_puma_shoes_list(url):
     driver = webdriver.Firefox()
     driver.get(url)
     time.sleep(2)
-
+    # driver.page_source
     accept_pumas_cookies(driver)
 
     wait = WebDriverWait(driver, 15)
@@ -21,12 +23,10 @@ def get_puma_price_list(url):
     show_all_button.click()
     time.sleep(1)
 
-    scroll(wait, nbr_of_scroll=5, time_to_sleep=4)
-
-    # elem = driver.find_element_by_name("body")
-    # elem.send_keys(Keys.END)
+    scroll(wait, nbr_of_scroll=7, time_to_sleep=4)
 
     shoes = driver.find_elements_by_xpath("//div[@data-grid-tile-wrapper]")
+
     # shoes_name = driver.find_elements_by_class_name("product-tile-title")
     # shoes_price = driver.find_elements_by_class_name("product-tile-price-standard")
 
@@ -36,7 +36,6 @@ def get_puma_price_list(url):
 
 
 def extract_pumas_data(shoes):
-    # print(shoes[0].find_element_by_class_name("product-tile-title").text)
     shoes_list_filtered = filter(lambda x: check_exists_by_classname(x, "product-tile-title"), shoes)
     shoes_list_filtered = filter(lambda x: check_exists_by_classname(x, "product-tile-price-standard"),
                                  shoes_list_filtered)
@@ -55,25 +54,49 @@ def extract_pumas_data(shoes):
     return extract_price_list_converted
 
 
-def get_nike_price_list(url):
-    driver = webdriver.Firefox()
-    driver.get(url)
-    time.sleep(4)
+# def get_nike_price_list(url):
+#     driver = webdriver.Firefox()
+#     driver.get(url)
+#     time.sleep(4)
+#
+#     accept_nike_cookies(driver)
+#
+#     time.sleep(2)
+#
+#     wait = WebDriverWait(driver, 15)
+#
+#     time.sleep(2)
+#     driver.execute_script("window.scrollTo(0, 150)")
+#
+#     time.sleep(3)
+#     scroll(wait, 3, 4)
+#
+#     # shoes = driver.find_elements_by_xpath("//class[@product-card]")
+#     shoes = driver.find_elements_by_class_name("product-card")
+#     print(shoes)
+#     # "product_msg_info"
+#     # name = "product-card__title"
+#     # price = "product-price"
+#
+#     # shoes_name = driver.find_elements_by_class_name("product-tile-title")
+#     # shoes_price = driver.find_elements_by_class_name("product-tile-price-standard")
+#
+#     extract_price_list_converted = extract_nikes_data(shoes)
+#
+#     return extract_price_list_converted
 
-    accept_nike_cookies(driver)
+def get_nike_shoes_list(url):
+    reponse = requests.get(url)
+    soup = BeautifulSoup(reponse.text, 'html.parser')
 
-    time.sleep(2)
+    # print(soup)
 
-    wait = WebDriverWait(driver, 15)
+    all_shoes = soup.find("product-grid__items")
+    shoes = soup.find_all(_class='product-card')
 
-    time.sleep(2)
-    driver.execute_script("window.scrollTo(0, 150)")
-
-    time.sleep(3)
-    scroll(wait, 3, 4)
-
-    # shoes = driver.find_elements_by_xpath("//class[@product-card]")
-    shoes = driver.find_elements_by_class_name("product-card")
+    print(" =============== Extract Data =============== ")
+    print(all_shoes)
+    print(" =============== ")
     print(shoes)
     # "product_msg_info"
     # name = "product-card__title"
